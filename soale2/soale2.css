@@ -1,0 +1,132 @@
+/* @font-face {
+    font-family: "yekan";
+    src: url(./B-Morvarid/) format(top)
+} */
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Protest+Revolution&display=swap);
+
+body{
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #faebd769;
+    font-family: inherit;
+    
+}
+
+.container{
+    width: 600px;
+   height: 200px;
+   background-color: #faebd7e4;
+   border-radius: 5px;
+   padding: 1rem;
+   border: 2px solid black;
+   position: relative;
+   position: relative;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.profile{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    
+}   
+
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+ 
+}
+.header-a{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 18px;
+    font-weight: 800;
+    
+   
+    margin-bottom: 50px;
+}
+
+.info{
+    
+    display:flex ;
+    align-items: center;
+    justify-content: right;
+    
+    margin-bottom: 5px;
+    font-size: 14px;
+    
+    
+}
+.info-22{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.info-33{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+span{
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 14px;
+}
+
+strong{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+
+.center{
+   display: flex;
+   
+   justify-content: center;
+   margin-bottom: 10px;
+   position: absolute;
+   left: 265px;
+   bottom: 104px;
+}
+
+.center-22{
+    display: flex;
+   /* align-items: center; */
+   justify-content: center;
+   margin-bottom: 10px;
+   position: absolute;
+   left: 320px;
+   bottom: 69px;
+}
+
+.center-33{
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 285px;
+    bottom: 35px;
+
+}
+.haeder1{
+    display: flex;
+    justify-content: center;
+
+}

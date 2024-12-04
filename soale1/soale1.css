@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.instagram-post {
+    width: 500px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+    color: #262626;
+    margin-left: -5px;
+    flex-grow: 1;
+    
+}
+.zero {
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.post-image img {
+    width: 100%;
+    display: block;
+}
+
+.post-footer {
+    padding: 10px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    
+}
+
+
+.action-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.left-actions {
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.right-actions {
+    margin-left: 0px;
+    cursor: pointer;
+}
+.save_icone {
+    margin-left: 360px;
+    cursor: pointer;
+}
+
+.post-caption {
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-top : 10px
+}
+
+.post-caption strong {
+    margin-right: 5px;
+}
+
+.post-time {
+    font-size: 12px;
+    color: #8e8e8e;
+    /* margin-top : 0px */
+}
+
+.save-button-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make it circular if desired */
+    transition: background-color 0.3s ease;
+}
+
+.save-button-container:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    
+}
+
+
+
+.save-button-container:hover .save-icon {
+    fill: #000; /* Darker color on hover */
+}
+
+
+
+.post-image .mute
+{
+   border-radius: 50%; 
+   right: 520px;
+   background-color: rgba(0, 0, 0, 0.411);
+   padding: 5px; 
+   width: max-content;
+   position: absolute;
+   bottom: 220px;
+   cursor: pointer;
+} 
+
+.post-image .user
+{
+    border-radius: 2px;
+    left: 5px
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 5px; 
+    width: max-content;
+    position: absolute;
+    bottom: 210px;
+    cursor: pointer;
+} 
+
+.post-caption
+{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+
+}
+
+.caption .page-name
+{
+   font-weight: 700;
+}
+
+.caption .more
+{
+   cursor: pointer;
+}
+
+.caption .more,
+.comments,
+.published-time
+{
+   color: gray;
+}
